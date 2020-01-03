@@ -20,7 +20,7 @@ p {
   font-weight: bold;
 }
 
-#home-section .dark-overlay {
+#home-section .dark-overlay{
   position: absolute;
   top: 0;
   left: 0;
@@ -36,16 +36,14 @@ p {
 #about-me-head-section {
   background: #333;
   width: 100%;
-  height: 150px;
+  height: 100px;
 }
 
 #skills-head-section {
-  padding: 5px;
-  border-radius: 5px;
+  width: 100%;
+  height: 100px;
 }
 
-#carousel {
-  background: rgba(0, 0, 0, 0.8);
-  height: 500px;
-  width: 100%;
+.skill-items {
+  font-size: 1rem;
 }
